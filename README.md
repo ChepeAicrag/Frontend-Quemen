@@ -1,2 +1,2 @@
 # Frontend-Quemen
-Pastry Frontend Repository
+Quemen Frontend Repository
