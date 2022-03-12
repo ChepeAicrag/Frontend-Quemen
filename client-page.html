@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quemen Cliente</title>
+  </head>
+
+  <body>
+    <!-- Headings -->
+    <img src="./assets/logo.png" alt="logo-backer" width="100" />
+    <h1>Quemen Cliente</h1>
+    <h2>Disfruta los mejores momentos</h2>
+    <img
+      src="./assets/assortment-of-pieces-of-cake.jpg"
+      alt="logo-quemen"
+      width="1300"
+      height="500"
+    />
+
+    <!-- Tablas -->
+    <table>
+      <tr>
+        <th>Pastel de Chocolate</th>
+        <th>Pastel de Vainilla</th>
+        <th>Pastel de Capuchino</th>
+      </tr>
+      <tr>
+        <td>Chico $100</td>
+        <td>Chico $100</td>
+        <td>Chico $100</td>
+      </tr>
+      <tr>
+        <td>Mediano $220</td>
+        <td>Mediano $220</td>
+        <td>Mediano $220</td>
+      </tr>
+      <tr>
+        <td>Familiar $500</td>
+        <td>Familiar $500</td>
+        <td>Familiar $500</td>
+      </tr>
+    </table>
+    <h3>Toppings extra</h3>
+    <ul>
+      <li>Fresas $50</li>
+      <li>Crema batida $80</li>
+      <li>Mermelada $40</li>
+    </ul>
+    <hr />
+
+    <!-- Tipos de Inputs -->
+    <form id="form1" method="post">
+      <h2>Diseña tu pastel</h2>
+      <h3>Seleciona el sabor de pastel</h3>
+      <label for="tacos">Sabores: </label>
+      <select id="sabores" name="sabores">
+        <option value="Chocolate">Chocolate</option>
+        <option value="Vainilla">Vainilla</option>
+        <option value="Capuchino">Capuchino</option>
+      </select>
+
+      <h3>Tamaño del pastel</h3>
+      <input type="radio" id="Chico" name="Tamaño" value="Chico" />
+      <label for="Chico">Chico 5 personas</label><br />
+      <input type="radio" id="Mediano" name="Tamaño" value="Mediano" />
+      <label for="Mediano">Mediano 10 personas</label><br />
+      <input type="radio" id="Familiar" name="Tamaño" value="Familiar" />
+      <label for="Familiar">Familiar 20 personas</label><br /><br />
+
+      <h3>Rellono del pastel</h3>
+      <input type="radio" id="Frutas" name="Rellono" value="Frutas" />
+      <label for="Chico">Frutas</label><br />
+      <input type="radio" id="Cremabatida" name="Rellono" value="Cremabatida" />
+      <label for="Mediano">Crema batida</label><br />
+      <input type="radio" id="Mermelada" name="Rellono" value="Mermelada" />
+      <label for="Familiar">Mermelada</label><br /><br />
+
+      <h3>Seleciona los toppings</h3>
+      <input type="checkbox" id="topping1" name="topping1" value="Fresas" />
+      <label for="topping1">Agregar Fresas</label><br />
+      <input type="checkbox" id="topping2" name="topping2" value="Nues" />
+      <label for="topping2">Agregar Nues</label><br />
+      <input
+        type="checkbox"
+        id="topping3"
+        name="topping3"
+        value="Chocolaterallado"
+      />
+      <label for="topping3">Agregar Chocolate rallado</label><br /><br />
+
+      <label for="tel1">Detalle especiales</label><br />
+      <textarea
+        type="text"
+        id="detalle"
+        name="detalle"
+        maxlength="100"
+      ></textarea>
+
+      <!-- Tipos de Inputs -->
+      <h2>Datos de cliente</h2>
+      <label for="text1">Nombre</label><br />
+      <input type="text" id="text1" name="text1" /><br /><br />
+
+      <label for="text2">Apellidos</label><br />
+      <input type="text" id="text2" name="text2" /><br /><br />
+
+      <label for="correo1">Correo</label><br />
+      <input type="email" id="correo1" name="correo1" /><br /><br />
+
+      <label for="tel1">Teléfono</label><br />
+      <input type="tel" id="tel1" name="tel1" maxlength="10" /><br /><br />
+
+      <label>Fecha de entrega</label><br />
+      <input type="date" id="fecha1" name="fecha1" /><br /><br />
+
+      <label for="tel1">Descripción de entrega</label><br />
+      <textarea
+        type="text"
+        id="detalle"
+        name="detalle"
+        maxlength="100"
+      ></textarea>
+      <hr />
+      <input type="submit" value="Enviar" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
